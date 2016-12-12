@@ -12,4 +12,7 @@
 		<description>$description$</description>
 		<copyright>Copyright 2016</copyright>
 	</metadata>
+	<files>
+		<file src="bin\$configuration$\*.*" target="tools" exclude="bin\$configuration$\*.vshost.*" />
+	</files>
 </package>

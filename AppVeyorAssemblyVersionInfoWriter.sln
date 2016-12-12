@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppVeyorAssemblyVersionInfo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppVeyorAssemblyVersionInfoWriter.Tests", "AppVeyorAssemblyVersionInfoWriter.Tests\AppVeyorAssemblyVersionInfoWriter.Tests.csproj", "{9C6D5BDD-672F-48EC-929C-315A780F1DDC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppVeyor", "AppVeyor", "{7FFCEE87-C1AF-4735-BF93-ECFA320A7E34}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
